@@ -1,0 +1,64 @@
+BLASTP 2.6.1+
+
+
+Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+Query= RPE65 | Bos taurus | retinal pigment epithelium | 53 | 1654 |
+1094010
+       (115 letters)
+
+Database: All non-redundant GenBank CDStranslations+PDB+SwissProt+PIR+PRF excluding environmental samplesfrom WGS projects
+           127,103,064 sequences; 46,671,234,851 total letters
+
+                                                                 Score       E
+Sequences producing significant alignments:                      (bits)    value
+
+
+  Database: All non-redundant GenBank CDStranslations+PDB+SwissProt+PIR+PRF excluding environmental samplesfrom WGS projects
+    Posted date:  Jul 26, 2017  1:17 PM
+	Number of letters in database: 46,671,234,851
+	Number of sequences in database: 127,103,064
+
+  Matrix: BLOSUM62
+  Gap Penalties Existence: 11, Extension: 1
+expect: 1e-10
+allowgaps: yes
+Search Statistics
+A: 40
+Hits_to_DB: 419,220,847
+S1: 39
+S1_bits: 19.6
+S2: 179
+S2_bits: 73.6
+T: 11
+X1: 15
+X1_bits: 7.2
+X2: 38
+X2_bits: 14.6
+X3: 64
+X3_bits: 24.7
+dbentries: 127,103,064
+dbletters: 46,671,234,851
+effectivedblength: 36,121,680,539
+effectivespace: 1,155,893,777,248
+effectivespaceused: 1,155,893,777,248
+entropy: 0.436
+entropy_gapped: 0.140
+kappa: 0.140
+kappa_gapped: 0.0410
+lambda: 0.335
+lambda_gapped: 0.267
+length_adjustment: 83
+num_extensions: 12,414,777
+num_successful_extensions: 36,971
+number_of_hsps_better_than_expect_value_cutoff_without_gapping: 0
+number_of_hsps_gapped: 36,971
+number_of_hsps_successfully_gapped: 0
+querylength: 32
+seqs_better_than_1e-10: 0
+
+
